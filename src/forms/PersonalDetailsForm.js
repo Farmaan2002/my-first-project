@@ -73,7 +73,7 @@ const PersonalDetailsForm = ({navigation}) => {
             {touched.name && errors.name && (
               <Text style={styles.errorText}>{errors.name}</Text>
             )}
-            <TextInput
+            {/* <TextInput
               style={styles.input}
               placeholder="Father's Name"
               value={values.fatherName}
@@ -82,7 +82,7 @@ const PersonalDetailsForm = ({navigation}) => {
             />
             {touched.fatherName && errors.fatherName && (
               <Text style={styles.errorText}>{errors.fatherName}</Text>
-            )}
+            )} */}
             <TextInput
               style={styles.input}
               placeholder="Mother's Name"
